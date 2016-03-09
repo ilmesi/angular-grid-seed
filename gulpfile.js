@@ -15,7 +15,10 @@ gulp.task('browserSyncReload', reload);
 gulp.task('serve', ['sass'], function() {
     browserSync({
         server: {
-          baseDir: 'app'
+          baseDir: 'app',
+          routes: {
+            "/bower_components": "bower_components"
+          }
         }
     });
 
