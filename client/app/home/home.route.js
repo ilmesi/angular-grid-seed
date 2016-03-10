@@ -20,7 +20,7 @@
                     templateUrl: 'app/home/home.html',
                     controller: 'HomeController',
                     controllerAs: 'vm',
-                    title: 'home'
+                    title: 'Welcome to angular seed'
                 }
             }
         ];
