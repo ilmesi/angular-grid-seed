@@ -1,0 +1,23 @@
+{
+  "name": "angular-masonry-seed",
+  "description": "angular seed",
+  "authors": [
+    "ilmesi"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ilmesi/angular-masonry-seed",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+  },
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-ui-router": "^0.2.18",
+    "jquery": "^2.2.1"
+  }
+}
