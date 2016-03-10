@@ -32,20 +32,20 @@ gulp.task('wiredep', function () {
     '**/*.js'
   ]
   var js = [
-    './app/**/*.module.js',
-    './app/**/*.js',
-    '!./app/**/*.spec.js'
+    './client/app/**/*.module.js',
+    './client/app/**/*.js',
+    '!./client/app/**/*.spec.js'
   ]
 
   return gulp
-    .src('app/index.html')
+    .src('client/index.html')
     .pipe(wiredep(options))
     .pipe(inject(js, '', jsOrder))
     .pipe(gulp.dest('./app'));
 });
 
 gulp.task('sass', function() {
-  return sass('app/scss/styles.scss')
+  return sass('client/scss/styles.scss')
     .pipe(gulp.dest('app/css'))
     .pipe(reload({ stream:true }));
 });
@@ -55,9 +55,9 @@ gulp.task('browserSyncReload', reload);
 gulp.task('serve', ['sass'], function() {
     browserSync({
         server: {
-          baseDir: './',
+          baseDir: './client',
         }
     });
 
-    gulp.watch(['app/scss/*.scss', 'app/**/*.html', 'app/**/*.js'], ['sass', 'browserSyncReload']);
+    gulp.watch(['client/scss/*.scss', 'client/**/*.html', 'client/**/*.js'], ['sass', 'browserSyncReload']);
 });
