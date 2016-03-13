@@ -5,7 +5,7 @@
 
     var config = {
         appErrorPrefix: '[findtrip Error] ',
-        appTitle: 'findtrip'
+        appTitle: 'Findtrip'
     };
 
     core.value('config', config);
