@@ -2,8 +2,8 @@
     {{ vm.tururu }}
 </section>
 <div id="gridWrap">
-  <ul class="dynamic-grid" angular-grid="vm.items" grid-width="gridWidth" angular-grid-instance="instance" gutter-size="20" refresh-on-img-load="false" >
-    <li data-ng-repeat="pic in vm.items" class="grid" angularGridOptions data-ng-clock>
+  <ul class="dynamic-grid" angular-grid="vm.items" ag-gutter-size="10" ag-refresh-on-img-load="false" >
+    <li data-ng-repeat="pic in vm.items" class="grid" data-ng-clock>
         <img ng-src="{{pic.url}}" class="grid-img" data-actual-width="{{pic.width}}" data-actual-height="{{pic.height}}" />
         <div class="img-desc-wrap">
             <div class="title">

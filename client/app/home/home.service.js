@@ -62,6 +62,22 @@
                     title: 'Climbing mountains 4',
                     likes: 35,
                     watch: 600
+                },
+                {
+                    width: 300,
+                    height: 500,
+                    url: 'http://placehold.it/300x500',
+                    title: 'Lets play hide and seek',
+                    likes: 51,
+                    watch: 1015
+                },
+                {
+                    width: 500,
+                    height: 300,
+                    url: 'http://placehold.it/500x300',
+                    title: 'Climbing mountains',
+                    likes: 35,
+                    watch: 600
                 }
             ];
             /*
