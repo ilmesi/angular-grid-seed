@@ -4,8 +4,8 @@
     var core = angular.module('app.core');
 
     var config = {
-        appErrorPrefix: '[findtrip Error] ',
-        appTitle: 'Findtrip'
+        appErrorPrefix: '[grid-project Error] ',
+        appTitle: 'Grid-project'
     };
 
     core.value('config', config);
