@@ -1,3 +1,3 @@
 # angular-masonry-seed
 
-Simple angular + masonry + gulp seed
+Simple angular + angular grid + gulp seed
