@@ -5,10 +5,13 @@
         .module('app.home')
         .controller('HomeController', HomeController);
 
-    //DashboardController.$inject = ['$q', 'dataservice', 'logger'];
+    HomeController.$inject = ['homeDataFactory'];
     /* @ngInject */
-    function HomeController() {
+    function HomeController(homeDataFactory) {
         var vm = this;
         vm.tururu = 'HOMEE';
+        
+        var items = homeDataFactory.getItems();
+        vm.items = items.concat([]);    
     }
 })();

@@ -1,3 +1,22 @@
 <section id="home-view">
     {{ vm.tururu }}
 </section>
+<div id="gridWrap">
+  <ul class="dynamic-grid" angular-grid="vm.items" grid-width="gridWidth" angular-grid-instance="instance" gutter-size="20" refresh-on-img-load="false" >
+    <li data-ng-repeat="pic in vm.items" class="grid" angularGridOptions data-ng-clock>
+        <img ng-src="{{pic.url}}" class="grid-img" data-actual-width="{{pic.width}}" data-actual-height="{{pic.height}}" />
+        <div class="img-desc-wrap">
+            <div class="title">
+                {{pic.title}}
+            </div>
+            <div class="uploaded-date">
+                Uploaded on : {{pic.date}}
+            </div>
+            <div class="likes-watch-wrap">
+                <div class="likes"><span class="icon-like"></span> {{pic.likes}}</div>
+                <div class="watch"><span class="icon-watch"></span> {{pic.watch}}</div>
+            </div>
+        </div>
+    </li>
+  </ul>
+</div>
