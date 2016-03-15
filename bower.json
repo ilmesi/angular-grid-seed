@@ -1,11 +1,11 @@
 {
-  "name": "angular-masonry-seed",
+  "name": "angular-grid-seed",
   "description": "angular seed",
   "authors": [
     "ilmesi"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/ilmesi/angular-masonry-seed",
+  "homepage": "https://github.com/ilmesi/angular-grid-seed",
   "ignore": [
     "**/.*",
     "node_modules",
