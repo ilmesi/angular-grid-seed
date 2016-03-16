@@ -1,7 +1,12 @@
-<section id="home-view">
-    {{ vm.tururu }}
+<section class="jumbotron" id="landing">
+  <div class="container">
+    <div class="text-center">
+      <a class="btn btn-primary btn-lg" href="{{ vm.links.cta1 }}">Link 1</a>
+      <a class="btn btn-primary btn-lg" href="{{ vm.links.cta2 }}">Link 2</a>
+    </div>
+  </div>
 </section>
-<div class="gridWrap">
+<div class="container gridWrap">
   <ul class="dynamic-grid row" ag-grid-no="5" angular-grid="vm.items" ag-refresh-on-img-load="false" >
     <li data-ng-repeat="pic in vm.items" class="grid" data-ng-clock>
         <img ng-src="{{pic.url}}" class="grid-img" data-actual-width="{{pic.width}}" data-actual-height="{{pic.height}}" />

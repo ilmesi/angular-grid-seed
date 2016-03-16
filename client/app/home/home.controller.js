@@ -9,7 +9,6 @@
     /* @ngInject */
     function HomeController(homeDataFactory) {
         var vm = this;
-        vm.tururu = 'HOMEE';
         
         var items = homeDataFactory.getItems();
         vm.items = items.concat([]);    

@@ -1,6 +1,13 @@
+#landing {
+  background: url('http://placekitten.com/800/500') no-repeat center center;
+  padding: 11em;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .gridWrap {
-  width: 80%;
-  margin: 0 auto;
 
   .dynamic-grid {
     position: relative;
