@@ -1,3 +1,34 @@
+#landing-header {
+  background: none;
+  border: none;
+  padding-top: 10px;
+
+  .navbar-brand {
+    color: #fff;
+  }
+
+  .navbar-collapse {
+    .navbar-right {
+      padding-top: 3px;
+      padding-bottom: 3px;
+    }
+    a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: #fff;
+      background:none;
+
+      &.btn-success {
+        border-color: #fff;
+
+        &:hover {
+          background-color: #ff2747;
+          border-color: #ff0d31;
+        }
+      }
+    }
+  }
+}
 #landing {
   background: url('http://placekitten.com/800/500') no-repeat center center;
   padding: 11em;
