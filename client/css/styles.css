@@ -1,7 +1,12 @@
+.header-down #landing-header {
+  background-color: black; }
+
 #landing-header {
+  transition: all .2s ease-in-out;
   background: none;
   border: none;
-  padding-top: 10px; }
+  padding-top: 10px;
+  padding-bottom: 10px; }
   #landing-header .navbar-brand {
     color: #fff; }
   #landing-header .navbar-collapse .navbar-right {
