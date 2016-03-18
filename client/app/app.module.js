@@ -5,7 +5,7 @@
         'app.core',
         'app.layout',
         'app.home',
-        'angularGrid'
+        'wu.masonry'
     ]);
 
 })();
