@@ -33,10 +33,10 @@
 
 .grid-wrap .item {
   float: left;
-  margin: 5px;
+  padding: 5px;
   /*margin: 0 30px 30px 0;*/ }
   .grid-wrap .item.simple {
-    width: 217px; }
+    width: 234px; }
   .grid-wrap .item.double {
     width: 434px; }
   .grid-wrap .item .img-wrap {
