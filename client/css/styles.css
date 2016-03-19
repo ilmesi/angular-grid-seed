@@ -31,5 +31,23 @@
   -o-background-size: cover;
   background-size: cover; }
 
-.grid-wrap .item img {
-  width: 100%; }
+.grid-wrap .item {
+  float: left;
+  margin: 5px;
+  /*margin: 0 30px 30px 0;*/ }
+  .grid-wrap .item.simple {
+    width: 217px; }
+  .grid-wrap .item.double {
+    width: 434px; }
+  .grid-wrap .item .img-wrap {
+    position: relative; }
+    .grid-wrap .item .img-wrap a img {
+      border-radius: 12px;
+      width: 100%;
+      height: auto; }
+  .grid-wrap .item .description-wrap {
+    border-radius: 12px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center; }

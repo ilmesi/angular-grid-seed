@@ -78,7 +78,23 @@
                     title: 'Climbing mountains',
                     likes: 35,
                     watch: 600
-                }
+                },
+                {
+                    width: 481,
+                    height: 720,
+                    url: 'http://placehold.it/481x720',
+                    title: 'Lets play hide and seek 3',
+                    likes: 51,
+                    watch: 1015
+                },
+                {
+                    width: 396,
+                    height: 499,
+                    url: 'http://placehold.it/396x499',
+                    title: 'Climbing mountains 4',
+                    likes: 35,
+                    watch: 600
+                },
             ];
             /*
             return $http.get('/api/people')

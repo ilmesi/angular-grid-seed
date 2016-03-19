@@ -49,9 +49,37 @@
 .grid-wrap {
 
   .item {
-    
-    img {
+    float: left;
+    margin: 5px;
+    /*margin: 0 30px 30px 0;*/
+
+    &.simple {
+      width: 217px;
+    }
+
+    &.double {
+      width: 434px;
+    }
+
+    .img-wrap {
+      position: relative;
+
+      a {
+        img {
+          border-radius: 12px;
+
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+
+    .description-wrap {
+      border-radius: 12px;
+      position: absolute;
       width: 100%;
+      bottom: 0;
+      text-align: center;
     }
 
   }
