@@ -16,16 +16,22 @@
   "devDependencies": {},
   "dependencies": {
     "jquery": "^2.2.1",
+    "angular-masonry": "^0.16.0",
     "angular": "^1.5.0",
     "angular-ui-router": "^0.2.18",
-    "bootstrap": "^3.3.6",
-    "angular-masonry": "^0.16.0"
+    "bootstrap": "^3.3.6"
   },
   "overrides": {
     "bootstrap": {
       "main": [
         "dist/css/bootstrap.css",
         "dist/js/bootstrap.js"
+      ]
+    },
+    "outlayer": {
+      "main": [
+        "item.js",
+        "outlayer.js"
       ]
     }
   }
