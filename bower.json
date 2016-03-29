@@ -23,6 +23,15 @@
     "ngInfiniteScroll": "^1.2.2"
   },
   "overrides": {
+    "angular-masonry": {
+      "dependencies": {
+        "jquery-bridget": "~2.0.0",
+        "masonry": "~4.0.0",
+        "angular": "^1.5.0",
+        "jquery": "~2.1.0",
+        "imagesloaded": "~4.1.0"
+      }
+    },
     "bootstrap": {
       "main": [
         "dist/css/bootstrap.css",
