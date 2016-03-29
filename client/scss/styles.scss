@@ -49,16 +49,17 @@
 .grid-wrap {
 
   .item {
-    float: left;
+    /*float: left;
     padding: 5px;
-    /*margin: 0 30px 30px 0;*/
+    margin: 0 30px 30px 0;*/
+    padding: 5px;
 
     &.simple {
       width: 234px;
     }
 
     &.double {
-      width: 434px;
+      /*width: 434px;*/
     }
 
     .img-wrap {
@@ -75,8 +76,6 @@
     }
 
     .description-wrap {
-      border-radius: 12px;
-      position: absolute;
       width: 100%;
       bottom: 0;
       text-align: center;
