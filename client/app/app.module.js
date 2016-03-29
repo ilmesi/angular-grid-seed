@@ -5,7 +5,8 @@
         'app.core',
         'app.layout',
         'app.home',
-        'wu.masonry'
+        'wu.masonry',
+        'infinite-scroll'
     ]);
 
 })();

@@ -12,5 +12,10 @@
         
         var items = homeDataFactory.getItems();
         vm.items = items.concat([]);
+
+        vm.more = function() {
+            var newItems = homeDataFactory.getItems();
+            vm.items = vm.items.concat(newItems);
+        }
     }
 })();
